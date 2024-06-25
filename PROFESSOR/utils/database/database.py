@@ -2,7 +2,7 @@ import random
 from typing import Dict, List, Union
 
 from PROFESSOR import userbot
-from PROFESSOR.core.mongo import mongodb, pymongodb
+from PROFESSOR.core.mongo import mongodb
 
 authdb = mongodb.adminauth
 authuserdb = mongodb.authuser
