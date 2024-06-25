@@ -5,7 +5,7 @@ import heroku3
 from pyrogram import filters
 
 import config
-from PROFESSOR.core.mongo import mongodb
+from PROFESSOR.core.mongo import mongodb, pymongodb
 
 from .logging import LOGGER
 
