@@ -1,5 +1,5 @@
 from motor.motor_asyncio import AsyncIOMotorClient as _mongo_client_
-from pymongo import MongoClient
+from pymongo import MongoClient, pymongodb
 from pyrogram import Client
 
 import config
